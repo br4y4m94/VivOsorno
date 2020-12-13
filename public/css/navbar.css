@@ -1,0 +1,153 @@
+/* amarillo #FF9900*/
+/*color verde #709E7B*/
+
+:root{
+    --main-bg-color:#FF9900;
+    --second--bg-color:#709E7B;
+}
+body{
+    background-color: #f8fafc;
+}
+.nabvarAmarillo{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.card-header{
+    background-color: var(--second--bg-color);
+    color: white;
+}
+
+/*     espacio login*/
+.container{
+  
+}
+
+.divLogin{
+    margin-bottom: 15rem;
+}
+.btnOjo{
+    border: none;
+    background-color: var(--second--bg-color);
+    color: #E1E1E1;
+}
+
+.btnRegistrar{
+    background-color: var(--second--bg-color);
+    color: white;
+}
+
+footer{
+    height: 20rem;
+    background-color: var(--main-bg-color);
+    padding-top: 5rem;
+}
+
+.boton_link{
+    text-decoration: none;
+    color: white;
+}
+
+.pregunta{
+    padding-left: 10rem ;
+}
+
+.lista_Opciones_Perfil{
+    background-color: var(--second--bg-color);
+}
+
+.boton_Pestana{
+    
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.divPerfil{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+.colPestanas{
+    background-color: var(--second--bg-color);
+    height: 40rem;
+}
+
+.pestanas{
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.pestanas:hover{
+    color: black;
+}
+
+.btn-secondary{
+    background-color: var(--second--bg-color);
+}
+
+
+/*ASLKNCSALK{NC{SALKNCSA*/
+.div_form_Propiedad{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    background-color: white;
+}
+
+/*  CSS PAGINA DE INICIO*/
+
+.imagenPortada{
+    
+}
+.divBusqueda{
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 1rem;
+    left: 14rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black;
+    padding: 5rem;
+    
+}
+.btnBuscar{
+    margin-left: 9rem;
+}
+
+.cards_Mas_Buscados{
+    margin-top: 3rem;
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+}
+
+/* VISTA PROPIEDAD*/
+.propiedadPrincipal{
+    width: 90rem;
+    height: 35rem;
+    border: 0.1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5%;
+    background-color: white;
+}
+
+/*NUEVO HILO*/
+.cardNuevoHilo{
+    margin-bottom: 15rem;
+}
+
+/* ERRORES INPUT*/
+
+.input_Error{
+    border: 2px solid red;
+}
+
+.input_Valido{
+    border: 2px solid green;
+}
+
+.input_Vacio{
+    border: 2px solid yellow;
+}
